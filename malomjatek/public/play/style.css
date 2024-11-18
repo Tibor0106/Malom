@@ -1,0 +1,62 @@
+/* General styling for the board container */
+.malom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Node circles */
+.cyl {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/* Horizontal lines */
+.vonal.hor {
+  height: 2px;
+  width: 60px;
+  background-color: black;
+  margin: 0 15px;
+}
+
+/* Vertical lines */
+.vonal.vert {
+  width: 2px;
+  height: 50px;
+  background-color: black;
+  margin: 15px 0;
+}
+
+/* Square row arrangement */
+.outer-square,
+.middle-square,
+.inner-square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.middle-connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Spacing between levels */
+.outer-square {
+  margin-bottom: 20px;
+}
+
+.middle-square {
+  margin-bottom: 20px;
+}

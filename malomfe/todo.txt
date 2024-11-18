@@ -1,0 +1,4 @@
+kiválasztás módoítása -- 
+backen -> szoba törlése játék végén illetve klinens tötlése disconnect (ezt jelezni a klinesek felé, ha játékközben van) esetén
+Ha valamelyik játékosnak pontosan három figurája maradt, ugorhat: nem kell
+többet a vonalak mentén közlekednie,
